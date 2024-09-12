@@ -1,0 +1,36 @@
+# Core libraries
+langchain==0.0.320
+transformers==4.36.2
+torch==2.1.2
+faiss-cpu==1.7.4  # Use faiss-gpu if you have CUDA support
+
+# PDF processing
+PyPDF2==3.0.1
+
+# Embeddings and models
+sentence-transformers==2.2.2
+
+# Vector store
+faiss-cpu==1.7.4  # or faiss-gpu if using GPU
+
+# Data handling and processing
+numpy==1.26.2
+pandas==2.1.4
+
+# Configuration
+pyyaml==6.0.1
+
+# Hugging Face Hub interaction
+huggingface-hub==0.20.2
+
+# Kaggle dataset interaction
+kaggle==1.6.5
+
+# CLI interface
+argparse==1.4.0
+
+# Streamlit for web interface (if implemented)
+streamlit==1.29.0
+
+# Utilities
+tqdm==4.66.1

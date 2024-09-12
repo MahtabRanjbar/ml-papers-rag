@@ -1,0 +1,24 @@
+debug: false
+
+model:
+  name: "meta-llama/Meta-Llama-3-8B-Instruct"
+  temperature: 0.4
+  top_p: 0.90
+  repetition_penalty: 1.15
+  max_len: 8192
+  max_new_tokens: 512
+
+text_splitter:
+  chunk_size: 800
+  chunk_overlap: 400
+
+embeddings:
+  model_repo: "BAAI/bge-base-en-v1.5"
+
+retriever:
+  k: 6
+
+paths:
+  pdfs: "/kaggle/input/100-llm-papers-to-explore/"
+  embeddings: "/kaggle/input/faiss-ml-papers-st"
+  output: "./ml-papers-vectordb"
